@@ -1,0 +1,64 @@
+{
+ "p": 157,
+ "irregular_half_indices": [
+  31,
+  55
+ ],
+ "bernoulli_formula_matches_direct_unit_logs": true,
+ "primitive_root": 5,
+ "admissible_r_le_10": [
+  2,
+  3,
+  4,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "attempts": [
+  {
+   "r": 1,
+   "e": 3,
+   "solvable": true,
+   "congruence_failures": 24336,
+   "cells": 24649,
+   "failures_exactly_at_cells_with_ij_nonzero": true,
+   "failing_degree_conditions": [
+    [
+     63,
+     93
+    ]
+   ],
+   "failing_infinity_conditions": [],
+   "rays_sha256": "21337e2f18f31d2c61078ea5a12b242347711fd0c5a674e3432efde727ad4df9",
+   "determinant_exponent": 162,
+   "witness_file": "p157_r1.json",
+   "witness_sha256": "b9670e44100f69d2c0fbf439fe13442a3a5ff2855841d512c1c1e38f1713a0e9",
+   "admissible": false,
+   "P_coefficients": {
+    "1": 1,
+    "31": 81,
+    "55": 56
+   }
+  },
+  {
+   "r": 2,
+   "e": 5,
+   "solvable": true,
+   "congruence_failures": 0,
+   "cells": 24649,
+   "failures_exactly_at_cells_with_ij_nonzero": false,
+   "failing_degree_conditions": [],
+   "failing_infinity_conditions": [],
+   "rays_sha256": "61ffd85690aa9e611fcadb76839ceff819acae64f721927b6eeae2be147496cd",
+   "determinant_exponent": 164,
+   "witness_file": "p157_r2.json",
+   "witness_sha256": "f45ad6167b9d01a8da2ecd190ea51274cc67924a0ee6f61151756f706ff861a9",
+   "admissible": true,
+   "P_coefficients": {
+    "1": 1
+   }
+  }
+ ]
+}

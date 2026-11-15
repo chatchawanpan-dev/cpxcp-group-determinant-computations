@@ -1,0 +1,99 @@
+{
+  "manifest_sha256": "f331cb9c09a3694bf95081faf0d0d6d5670793191007631edf8aeec6acc507ae",
+  "selected_cases": [
+    "magma_p13_B40000000",
+    "magma_p11_B30000000",
+    "magma_p13_B12000000",
+    "python_census_20000",
+    "python_tail_p103_r5",
+    "python_tail_p157_r2",
+    "python_tail_p131_r2",
+    "python_tail_p37_r1",
+    "python_tail_p59_r1",
+    "python_tail_p67_r1",
+    "python_tail_p101_r1",
+    "magma_vector_p11_77419",
+    "python_generator_certificate"
+  ],
+  "results": {
+    "magma_p11_B30000000": {
+      "status": "passed",
+      "elapsed_seconds": 255.99415245799992,
+      "errors": [],
+      "missing_files": []
+    },
+    "magma_p13_B40000000": {
+      "status": "passed",
+      "elapsed_seconds": 392.52950729200074,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_census_20000": {
+      "status": "passed",
+      "elapsed_seconds": 16.136663500000395,
+      "errors": [],
+      "missing_files": []
+    },
+    "magma_p13_B12000000": {
+      "status": "passed",
+      "elapsed_seconds": 134.22384866599987,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_tail_p103_r5": {
+      "status": "passed",
+      "elapsed_seconds": 89.94922287500049,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_tail_p157_r2": {
+      "status": "passed",
+      "elapsed_seconds": 163.94908629200017,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_tail_p131_r2": {
+      "status": "passed",
+      "elapsed_seconds": 92.60615616700034,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_tail_p59_r1": {
+      "status": "passed",
+      "elapsed_seconds": 3.3100782500005153,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_tail_p37_r1": {
+      "status": "passed",
+      "elapsed_seconds": 0.7863965000005919,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_tail_p67_r1": {
+      "status": "passed",
+      "elapsed_seconds": 4.882698958999754,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_tail_p101_r1": {
+      "status": "passed",
+      "elapsed_seconds": 19.3334099169997,
+      "errors": [],
+      "missing_files": []
+    },
+    "magma_vector_p11_77419": {
+      "status": "passed",
+      "elapsed_seconds": 0.3817553749995568,
+      "errors": [],
+      "missing_files": []
+    },
+    "python_generator_certificate": {
+      "status": "passed",
+      "elapsed_seconds": 0.027095792000181973,
+      "errors": [],
+      "missing_files": []
+    }
+  },
+  "all_selected_passed": true
+}

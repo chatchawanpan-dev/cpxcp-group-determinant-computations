@@ -1,0 +1,15 @@
+environment 3.13.5 macOS-26.6.2-arm64-arm-64bit-Mach-O python-flint0.9.0
+foundation_controls {'F3': 80, 'F2': 48, 'F4': 96, 'failures': []}
+GEN1 {'norm': 77419, 'Y1': -16, 'odd_coords': [0, 0, 10, 9], 'conjugacy_t3': [10, 9]}
+DET1 {'augmentation': 11, 'max_abs': 818563418363617581019852451600116437, 'determinant': 323398376027990284769, 'expected': 323398376027990284769}
+IR4 37 [(0, 1), (1, 1), (16, 7)] []
+IR4 59 [(0, 1), (1, 1), (22, 51)] []
+IR4 67 [(0, 1), (1, 1), (29, 30)] []
+OBS1 103 1 failed_moments [(25, 36)] failed_cells 10404 exact_xy_nonzero True
+OBS1 103 2 failed_moments [(25, 30)] failed_cells 10404 exact_xy_nonzero True
+OBS1 103 3 failed_moments [(25, 28)] failed_cells 10404 exact_xy_nonzero True
+OBS1 103 4 failed_moments [(25, 27)] failed_cells 10404 exact_xy_nonzero True
+OBS1 131 1 failed_moments [(23, 33)] failed_cells 16900 exact_xy_nonzero True
+OBS1 157 1 failed_moments [(63, 93)] failed_cells 24336 exact_xy_nonzero True
+CEN1 {'number_primes': 2259, 'irregular': 900, 'frequencies': {1: 1602, 2: 283, 3: 224, 4: 67, 5: 59, 6: 6, 7: 16, 8: 2}, 'r_gt_1': 657, 'bound_failures': []}
+CEN1_below400 [(37, [32], 1, 5), (59, [44], 1, 5), (67, [58], 1, 5), (101, [68], 1, 5), (103, [24], 5, 13), (131, [22], 2, 7), (149, [130], 1, 5), (157, [62, 110], 2, 7), (233, [84], 4, 11), (257, [164], 3, 9), (263, [100], 3, 9), (271, [84], 4, 11), (283, [20], 3, 9), (293, [156], 4, 11), (307, [88], 3, 9), (311, [292], 1, 5), (347, [280], 1, 5), (353, [186, 300], 2, 7), (379, [100, 174], 4, 11), (389, [200], 3, 9)]

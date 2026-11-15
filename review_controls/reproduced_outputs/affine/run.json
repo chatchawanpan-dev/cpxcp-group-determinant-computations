@@ -1,0 +1,38 @@
+{
+  "id": "affine",
+  "script": "affine_and_prime_controls.py",
+  "input_sha256": {
+    "affine_and_prime_controls.py": "8172b34a7b5aad2cae3f488723a386cf05ec401632fef17ff8f820324fa4afa8"
+  },
+  "actual_command": [
+    "<venv>/bin/python",
+    "-u",
+    "<repository>/review_controls/affine_and_prime_controls.py"
+  ],
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python_flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "magma_startup_sha256": "cee2f769a042a2efceb364f27661d4019188a919a01f6534b0f26857220b87b9",
+  "started_utc": "2026-11-08T11:53:14.451259+00:00",
+  "returncode": 0,
+  "errors": [],
+  "missing_output_markers": [],
+  "elapsed_seconds": 59.25168741699963,
+  "finished_utc": "2026-11-08T11:54:13.703960+00:00",
+  "status": "execution_passed",
+  "interpretation": "Execution check only; mathematical interpretation is in the independent statement review.",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 275,
+      "sha256": "aae42ff877d96ace4454c431aa1b39c728c85ba6cb5f0fe1c1929debf10cb36b"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

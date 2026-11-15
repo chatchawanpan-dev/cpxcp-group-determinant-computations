@@ -1,0 +1,7 @@
+x=100000 pi(x)=9592 admitted=2 predicted=7.86176
+x=1000000 pi(x)=78498 admitted=54 predicted=64.3383
+x=10000000 pi(x)=664579 admitted=537 predicted=544.699
+x=30000000 pi(x)=1857859 admitted=1510 predicted=1522.73
+size bound p^(p-4)/2^(p-1) = 19030.440 ; least admitted = 77419
+first admitted: [ 77419, 82237, 109451, 121309, 181061, 195163, 255179, 300323, 
+323819, 327581, 328109, 345533 ]

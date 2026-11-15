@@ -1,0 +1,63 @@
+{
+  "id": "python_census_20000",
+  "status": "passed",
+  "input": {
+    "id": "python_census_20000",
+    "engine": "python",
+    "script": "python/tail_exponent_census.py",
+    "arguments": [
+      "20000",
+      "2000",
+      "census.json",
+      "census_all_primes.csv"
+    ],
+    "expected_files": [
+      "census.json",
+      "census_all_primes.csv"
+    ],
+    "prime_cutoff_inclusive": 20000,
+    "exact_bernoulli_crosscheck_cutoff": 2000
+  },
+  "script_sha256": "437abc7c4b7386c73665e8a7f3b78f3398348ddd69910a78c2f85817cd48c29e",
+  "actual_command": [
+    "<venv>/bin/python",
+    "-u",
+    "<repository>/python/tail_exponent_census.py",
+    "20000",
+    "2000",
+    "census.json",
+    "census_all_primes.csv"
+  ],
+  "started_utc": "2026-11-08T10:16:32.087690+00:00",
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python_flint": "0.9.0",
+    "numpy": "2.4.4",
+    "magma_startup_sha256": "cee2f769a042a2efceb364f27661d4019188a919a01f6534b0f26857220b87b9"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 16.136663500000395,
+  "finished_utc": "2026-11-08T10:16:48.299182+00:00",
+  "errors": [],
+  "missing_files": [],
+  "outputs": {
+    "census.json": {
+      "bytes": 73561,
+      "sha256": "c83bd42c8da503496b00c5bffbc82eb0f1e6ae6a774664eadf441492292b3488"
+    },
+    "census_all_primes.csv": {
+      "bytes": 47425,
+      "sha256": "9bf5c8467eb22672a395d55370a68fa979512c33fe8c4f93a53c8e6e96617572"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

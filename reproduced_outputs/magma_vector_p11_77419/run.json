@@ -1,0 +1,59 @@
+{
+  "id": "magma_vector_p11_77419",
+  "status": "passed",
+  "input": {
+    "id": "magma_vector_p11_77419",
+    "engine": "magma",
+    "script": "magma/determinant_example_p11.m",
+    "arguments": [
+      "ell:=77419"
+    ],
+    "expected_files": [
+      "determinant_example_p11_vector.txt",
+      "determinant_example_p11_matrix_entries.csv"
+    ],
+    "prime": 11,
+    "ell": 77419,
+    "seed": 1,
+    "matrix_order": "G=(i,j), i major,j minor; row w,column x: v[x-w]"
+  },
+  "script_sha256": "98f7d022042531781dea81e7c9a627bd52accc451dcfd6209630d902adeecd38",
+  "actual_command": [
+    "/opt/homebrew/bin/magma",
+    "-b",
+    "ell:=77419",
+    "<repository>/magma/determinant_example_p11.m"
+  ],
+  "started_utc": "2026-11-08T10:23:57.167791+00:00",
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python_flint": "0.9.0",
+    "numpy": "2.4.4",
+    "magma_startup_sha256": "cee2f769a042a2efceb364f27661d4019188a919a01f6534b0f26857220b87b9"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 0.3817553749995568,
+  "finished_utc": "2026-11-08T10:23:57.576689+00:00",
+  "errors": [],
+  "missing_files": [],
+  "outputs": {
+    "determinant_example_p11_matrix_entries.csv": {
+      "bytes": 633343,
+      "sha256": "2b00f002d37441c0033a5402f72824153c21c875952538231e8c8d2080eb17f9"
+    },
+    "determinant_example_p11_vector.txt": {
+      "bytes": 4698,
+      "sha256": "bb04d855059d5f0e72561a56502780c0bfdedfa2c897db497d28752303bb47c9"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 453,
+      "sha256": "2ed9e544a3d3d01f0597116100ff8ea6cdecb5c37abdd9c514b2b54944b7259f"
+    }
+  }
+}

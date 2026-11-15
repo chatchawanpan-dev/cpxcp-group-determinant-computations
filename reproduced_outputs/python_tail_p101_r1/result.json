@@ -1,0 +1,40 @@
+{
+ "p": 101,
+ "irregular_half_indices": [
+  34
+ ],
+ "bernoulli_formula_matches_direct_unit_logs": true,
+ "primitive_root": 2,
+ "admissible_r_le_10": [
+  1,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "attempts": [
+  {
+   "r": 1,
+   "e": 3,
+   "solvable": true,
+   "congruence_failures": 0,
+   "cells": 10201,
+   "failures_exactly_at_cells_with_ij_nonzero": false,
+   "failing_degree_conditions": [],
+   "failing_infinity_conditions": [],
+   "rays_sha256": "0083cf6ca4b06f4994e3bd4f766919e2e277ea4c0ce637ac9ebfcb091c427bc9",
+   "determinant_exponent": 106,
+   "witness_file": "p101_r1.json",
+   "witness_sha256": "5356a30c3ee080bd5e084545b8e844eb8daac933e08c02d669f663d2a0b54db5",
+   "admissible": true,
+   "P_coefficients": {
+    "1": 1,
+    "34": 3
+   }
+  }
+ ]
+}

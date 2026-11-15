@@ -1,0 +1,8 @@
+A2_counts 7 10 5
+A2_counts 11 28 17
+A2_counts 13 40 26
+affine_constructed_moment_packets 48 failures []
+prime_orbit_controls 11 22
+prime_orbit_controls 13 24
+affine_and_prime_control_failures []
+zero_unit_tau_controls [(7, False, True), (11, False, True), (13, False, True)]

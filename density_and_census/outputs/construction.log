@@ -1,0 +1,12 @@
+{"cases": 11, "seed": 2026, "all_passed": true}
+5 8 1 True 7
+5 9 2 True 8
+7 10 1 True 11
+7 10 3 True 20
+7 10 -2 True 12
+7 11 1 True 11
+7 11 5 True 11
+11 14 1 True 21
+11 14 7 True 126
+11 15 -1 True 28
+11 16 2 True 50

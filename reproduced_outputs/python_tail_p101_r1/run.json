@@ -1,0 +1,63 @@
+{
+  "id": "python_tail_p101_r1",
+  "status": "passed",
+  "input": {
+    "id": "python_tail_p101_r1",
+    "engine": "python",
+    "script": "python/check_bernoulli_tail.py",
+    "arguments": [
+      "101",
+      "1",
+      "result.json",
+      "witnesses"
+    ],
+    "expected_files": [
+      "result.json",
+      "witnesses/p101_r1.json"
+    ],
+    "prime": 101,
+    "rmax": 1
+  },
+  "script_sha256": "07822039ea9071623728fa82683013fcee33ee60ab55389fd5b03a7eb248379c",
+  "actual_command": [
+    "<venv>/bin/python",
+    "-u",
+    "<repository>/python/check_bernoulli_tail.py",
+    "101",
+    "1",
+    "result.json",
+    "witnesses"
+  ],
+  "started_utc": "2026-11-08T10:20:27.996556+00:00",
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python_flint": "0.9.0",
+    "numpy": "2.4.4",
+    "magma_startup_sha256": "cee2f769a042a2efceb364f27661d4019188a919a01f6534b0f26857220b87b9"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 19.3334099169997,
+  "finished_utc": "2026-11-08T10:20:47.332543+00:00",
+  "errors": [],
+  "missing_files": [],
+  "outputs": {
+    "result.json": {
+      "bytes": 764,
+      "sha256": "3166eecce32783c0ef771cf323822196f28d957bb0445bcb5d8be30958d69694"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "witnesses/p101_r1.json": {
+      "bytes": 169725,
+      "sha256": "5356a30c3ee080bd5e084545b8e844eb8daac933e08c02d669f663d2a0b54db5"
+    }
+  }
+}

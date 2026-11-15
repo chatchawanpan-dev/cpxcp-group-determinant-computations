@@ -1,0 +1,57 @@
+{
+  "id": "magma_p13_B12000000",
+  "status": "passed",
+  "input": {
+    "id": "magma_p13_B12000000",
+    "engine": "magma",
+    "script": "magma/defect_distribution_p13.m",
+    "arguments": [
+      "B:=12000000",
+      "records:=decisions.csv"
+    ],
+    "expected_files": [
+      "decisions.csv"
+    ],
+    "prime": 13,
+    "bound": 12000000,
+    "seed": 1,
+    "prime_ideal_selection": "Decomposition(O,ell)[1][1]",
+    "class_number_proof": "Full with explicit Minkowski bound"
+  },
+  "script_sha256": "33fbbb1daf72ec803e9c9c43ec7a264999d484cdac4390c1cb9063bb129e0158",
+  "actual_command": [
+    "/opt/homebrew/bin/magma",
+    "-b",
+    "B:=12000000",
+    "records:=decisions.csv",
+    "<repository>/magma/defect_distribution_p13.m"
+  ],
+  "started_utc": "2026-11-08T10:16:32.087784+00:00",
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python_flint": "0.9.0",
+    "numpy": "2.4.4",
+    "magma_startup_sha256": "cee2f769a042a2efceb364f27661d4019188a919a01f6534b0f26857220b87b9"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 134.22384866599987,
+  "finished_utc": "2026-11-08T10:18:46.389066+00:00",
+  "errors": [],
+  "missing_files": [],
+  "outputs": {
+    "decisions.csv": {
+      "bytes": 5330684,
+      "sha256": "9c39eab36d11f0a450feed7fa0db10bf4d1438f2940a719ec2d31a1f769ba856"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 9889,
+      "sha256": "3e90b73f4a3f97fb42b912749b923a216401837615862b974a90a7c3d1e86f54"
+    }
+  }
+}

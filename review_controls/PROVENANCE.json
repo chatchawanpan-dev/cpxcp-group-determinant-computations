@@ -1,0 +1,12 @@
+{
+  "origin": "Source programs executed by the independent statement reviewer and received read-only in the handoff. The exact original programs and their hashes are retained in the citation-closure evidence.",
+  "portable_changes": {
+    "core_controls.py": "Only the input-directory lookup changed, from the absolute review-packet path to Path(__file__).resolve().parent.",
+    "affine_and_prime_controls.py": "Exact reviewer-executed source; SHA-256 8172b34a7b5aad2cae3f488723a386cf05ec401632fef17ff8f820324fa4afa8.",
+    "prime_count_control.m": "Only seed 1, column width 1024 and a version header were prepended.",
+    "classnumber_control.m": "Only seed 1, column width 1024 and a version header were prepended.",
+    "arithmetic_controls.py": "Exact reviewer-executed source."
+  },
+  "limits": "Finite controls only. The class-number quick control uses Magma defaults and is not an independent unconditional proof. Unconditional class-number-one support comes from Washington and the full Minkowski-bound producer records. An initial fixed-ideal control mistake was corrected by quantifying over the conjugates already permitted by DF3; the mathematical statements were unchanged.",
+  "output_completeness_guard": "An extracted control once produced an empty stdout log despite exit0. Earlier records are preserved in the closure audit. The runner now requires case-specific result/completion markers; final working and extracted runs are repeated using that guard. No mathematical control algorithm or manuscript statement changed."
+}

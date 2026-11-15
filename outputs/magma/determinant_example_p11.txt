@@ -1,0 +1,6 @@
+defects: [ 0, 0, 6, 5 ]
+norm f_inf / (p^3 ell) = 1
+augmentation: 11
+determinant = 323398376027990284769
+equals 11^15 * ell: true  max |coefficient| = 
+818563418363617581019852451600116437 2

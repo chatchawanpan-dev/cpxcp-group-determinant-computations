@@ -1,0 +1,38 @@
+{
+  "id": "arithmetic",
+  "script": "arithmetic_controls.py",
+  "input_sha256": {
+    "arithmetic_controls.py": "8c16866ec46f87e5ddd6af5c0f858bc021cec3e27100b0ea8de3f49095953e5a"
+  },
+  "actual_command": [
+    "<venv>/bin/python",
+    "-u",
+    "<repository>/review_controls/arithmetic_controls.py"
+  ],
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python_flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "magma_startup_sha256": "cee2f769a042a2efceb364f27661d4019188a919a01f6534b0f26857220b87b9",
+  "started_utc": "2026-11-08T11:54:16.391674+00:00",
+  "returncode": 0,
+  "errors": [],
+  "missing_output_markers": [],
+  "elapsed_seconds": 0.4184884160004003,
+  "finished_utc": "2026-11-08T11:54:16.810175+00:00",
+  "status": "execution_passed",
+  "interpretation": "Execution check only; mathematical interpretation is in the independent statement review.",
+  "outputs": {
+    "stdout.log": {
+      "bytes": 381,
+      "sha256": "4517a9f35750bb26c72a2de0dfe5c8120b5d50ea1cf32a61888fdfe558387edd"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

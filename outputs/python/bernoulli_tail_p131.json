@@ -1,0 +1,59 @@
+{
+ "p": 131,
+ "irregular_half_indices": [
+  11
+ ],
+ "bernoulli_formula_matches_direct_unit_logs": true,
+ "primitive_root": 2,
+ "admissible_r_le_10": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "attempts": [
+  {
+   "r": 1,
+   "e": 3,
+   "solvable": true,
+   "congruence_failures": 16900,
+   "cells": 17161,
+   "failures_exactly_at_cells_with_ij_nonzero": true,
+   "failing_degree_conditions": [
+    [
+     23,
+     33
+    ]
+   ],
+   "failing_infinity_conditions": [],
+   "rays_sha256": "9aba242dec088f5519a197cb9936d773da509571bbbf83ef9e3cab82c4e20708",
+   "determinant_exponent": 136,
+   "admissible": false,
+   "P_coefficients": {
+    "1": 1,
+    "11": 119
+   }
+  },
+  {
+   "r": 2,
+   "e": 5,
+   "solvable": true,
+   "congruence_failures": 0,
+   "cells": 17161,
+   "failures_exactly_at_cells_with_ij_nonzero": false,
+   "failing_degree_conditions": [],
+   "failing_infinity_conditions": [],
+   "rays_sha256": "dd9700388634159e84ae8b00b147b1acc6253b1c85917a855e5dd23fbcd8e4e1",
+   "determinant_exponent": 138,
+   "admissible": true,
+   "P_coefficients": {
+    "1": 1
+   }
+  }
+ ]
+}

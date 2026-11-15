@@ -1,0 +1,83 @@
+{
+  "id": "python_tail_p103_r5",
+  "status": "passed",
+  "input": {
+    "id": "python_tail_p103_r5",
+    "engine": "python",
+    "script": "python/check_bernoulli_tail.py",
+    "arguments": [
+      "103",
+      "5",
+      "result.json",
+      "witnesses"
+    ],
+    "expected_files": [
+      "result.json",
+      "witnesses/p103_r1.json",
+      "witnesses/p103_r2.json",
+      "witnesses/p103_r3.json",
+      "witnesses/p103_r4.json",
+      "witnesses/p103_r5.json"
+    ],
+    "prime": 103,
+    "rmax": 5
+  },
+  "script_sha256": "07822039ea9071623728fa82683013fcee33ee60ab55389fd5b03a7eb248379c",
+  "actual_command": [
+    "<venv>/bin/python",
+    "-u",
+    "<repository>/python/check_bernoulli_tail.py",
+    "103",
+    "5",
+    "result.json",
+    "witnesses"
+  ],
+  "started_utc": "2026-11-08T10:16:48.301004+00:00",
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python_flint": "0.9.0",
+    "numpy": "2.4.4",
+    "magma_startup_sha256": "cee2f769a042a2efceb364f27661d4019188a919a01f6534b0f26857220b87b9"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 89.94922287500049,
+  "finished_utc": "2026-11-08T10:18:18.254009+00:00",
+  "errors": [],
+  "missing_files": [],
+  "outputs": {
+    "result.json": {
+      "bytes": 3065,
+      "sha256": "f1a2bbec5aa298395f18d0bc9dbb484263d102408f41afafbe650a0b786cd215"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "witnesses/p103_r1.json": {
+      "bytes": 258742,
+      "sha256": "908e35d99cc521b968ad7218fad25bde773fd79b7f4f36c95d700507e45f2346"
+    },
+    "witnesses/p103_r2.json": {
+      "bytes": 258612,
+      "sha256": "617c9e66c3a44632747bc2312cdd4ed23c8685de35f098dcc75d8ef1380fff41"
+    },
+    "witnesses/p103_r3.json": {
+      "bytes": 258009,
+      "sha256": "355364e3cfc0412fe19ac2271a8093eb8158e10895c40a73be37b21292de3940"
+    },
+    "witnesses/p103_r4.json": {
+      "bytes": 258725,
+      "sha256": "18c8a906adbe3f9a1418af5eadd2c7ad3569325f9772e5fc15ce5ddfa0219ab0"
+    },
+    "witnesses/p103_r5.json": {
+      "bytes": 176491,
+      "sha256": "e77fd7d9b0bfd2c2ddeea2c14a8f16874511420bc83640ecaa918d0364fbfd30"
+    }
+  }
+}
